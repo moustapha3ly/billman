@@ -36,7 +36,7 @@
 							<td>{{$shop->email}}</td>
 							<td>
 							
-							<img src="{{ storage_path($shop->logo)}}" class=" w3-border w3-padding" alt="" width="100px" height="100"></td>
+							<img src="{{ asset('storage/'.$shop->logo)}}" class=" w3-border w3-padding" alt="" width="100px" height="100"></td>
 							<td>{{$shop->website}}</td>
 						  </tr>
 						@endforeach
